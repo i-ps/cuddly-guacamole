@@ -52,3 +52,7 @@ a {
 .carousel-caption h1 {
 	font-size: 50px!important;
 }
+
+.textDivider {
+	margin-bottom: 65px;
+}
