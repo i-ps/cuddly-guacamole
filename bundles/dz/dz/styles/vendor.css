@@ -1,0 +1,54 @@
+
+body {
+	background: #ECF0F1;
+	font-family: "Lato", sans-serif !important;
+	font-weight: 300;
+	color: #34495e;
+}
+
+.bg-dz {
+	border-top: 6px solid #C00000;
+	background-color:#ECF0F1!important
+}
+
+.navbar-brand, .navbar-brand:hover, .nav-link, .nav-link:hover {
+	color: #C00000;
+}
+
+.card {
+	background-color: #ECF0F1;
+	border-color: #BFBFBF;
+}
+
+a {
+	/*font-weight: bold;*/
+	color: #34495e;
+	font-size: 14px;
+}
+
+.card {
+	cursor: pointer;
+}
+.box:hover {
+	border-color: #C00000;
+}
+.box {
+	transition: all 0.2s ease;
+	transition-property: all;
+	transition-duration: 0.2s;
+	transition-timing-function: ease;
+	transition-delay: 0s;
+}
+
+.full-screen {
+	height: 100vh;
+}
+
+.carousel-caption {
+	bottom: 115px;
+	font-family: 'Nunito', sans-serif;
+}
+
+.carousel-caption h1 {
+	font-size: 50px!important;
+}
