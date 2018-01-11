@@ -56,3 +56,7 @@ a {
 .textDivider {
 	margin-bottom: 65px;
 }
+
+.card-body h5 {
+	color: #C00000;
+}
