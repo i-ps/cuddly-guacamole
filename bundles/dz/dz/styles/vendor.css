@@ -20,7 +20,7 @@ body {
 	border-color: #BFBFBF;
 }
 
-a {
+.nav-item a {
 	/*font-weight: bold;*/
 	color: #34495e;
 	font-size: 14px;
@@ -42,6 +42,10 @@ a {
 
 .full-screen {
 	min-height: 100vh;
+}
+
+.full-screen h3 {
+	padding-bottom: 40px;
 }
 
 .carousel-caption {
@@ -73,8 +77,22 @@ a {
 .flag ul li {
 	float: left;
 	margin-right: 5px;
+	margin-bottom: 50px;
 
 }
 .flag ul li img{
 	height: 20px;
+	width: 35px;
+}
+
+h4 small {
+	font-size: 16px;
+}
+
+.card-body h5 {
+	min-height: 70px;
+}
+
+.card-body li {
+	margin-bottom: 15px;
 }
