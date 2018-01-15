@@ -41,7 +41,7 @@ a {
 }
 
 .full-screen {
-	height: 100vh;
+	min-height: 100vh;
 }
 
 .carousel-caption {
@@ -59,4 +59,22 @@ a {
 
 .card-body h5 {
 	color: #C00000;
+}
+
+.card-leaders {
+	border-bottom: 1px solid #BFBFBF;
+	margin-bottom: 30px;
+}
+
+.flag ul {
+	list-style-type: none;
+
+}
+.flag ul li {
+	float: left;
+	margin-right: 5px;
+
+}
+.flag ul li img{
+	height: 20px;
 }
