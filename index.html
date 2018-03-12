@@ -24,6 +24,7 @@
 	<link rel="stylesheet" href="bundles/dz/dz/styles/vendor.css" />
 
     <link href="https://fonts.googleapis.com/css?family=Nunito:300" rel="stylesheet">
+
 </head>
 
 <body class="swag-line template-index">
@@ -51,9 +52,12 @@
 				<li class="nav-item">
 					<a class="nav-link contact" href="#">Kontakt</a>
 				</li>
-				<!--<li class="nav-item">
-					<a class="nav-link login" href="#">logowanie</a>
-				</li>-->
+				<li class="flag-language" style="display: none">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Flag_of_the_United_Kingdom.svg/33px-Flag_of_the_United_Kingdom.svg.png" alt="GB" title="Wielka Brytania">
+				</li>
+				<li class="flag-language">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Flag_of_Poland.svg/33px-Flag_of_Poland.svg.png" alt="PL" title="Polska">
+				</li>
 			</ul>
 		</div>
 	</div>
@@ -440,7 +444,11 @@
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
 <script src="bundles/dz/dz/scripts/main.js"></script>
+<script>
+    $( ".flag-language" ).click(function() {
+        $( ".flag-language" ).toggle();
+    });
+</script>
 </body>
 </html>

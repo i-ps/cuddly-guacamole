@@ -104,3 +104,11 @@ card-contact {
 .red {
 	color: #C00000;
 }
+
+.flag-language {
+	cursor: pointer;
+	text-align: right;
+	margin: 1px;
+	padding-left: 20px;
+
+}
